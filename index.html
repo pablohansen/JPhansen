@@ -1,66 +1,353 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"> 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>JP Hansen - Desarrollador Web</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-</head>
-<body>
-  <div class="container">
-    <div class="header">
-      <img src="JPsquare.png" alt="JP Hansen">
-      <h1>JP Hansen</h1>
-      <h2>Desarrollador Web</h2>
-      <h3>Marplatense</h3>
-    </div>
-    <div class="experience">
-      <h2>Experiencia Laboral</h2>
-      <ul>
-        <li>
-          <h3>Desarrollador Frontend | ABC Company</h3>
-          <p>Abril 2021 - Presente</p>
-        </li>
-        <li>
-          <h3>Desarrollador Web | XYZ Company</h3>
-          <p>Enero 2018 - Marzo 2021</p>
-        </li>
-      </ul>
-    </div>
-    <div class="education">
-      <h2>Educación</h2>
-      <ul>
-        <li>Universidad Nacional de Mar del Plata - Licenciatura en Sistemas</li>
-        <li>Universidad de Buenos Aires - Curso de Desarrollo Web</li>
-        <li>Certificación en Diseño de Interfaces de Usuario - Coursera</li>
-      </ul>
-    </div>
-    <div class="skills">
-      <h2>Habilidades</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node.js</li>
-      </ul>
-    </div>
-    <div class="contact">
-      <button onclick="showForm()">Contactar</button>
-      <form id="contact-form">
-        <input type="text" placeholder="Nombre" required>
-        <input type="email" placeholder="Correo electrónico" required>
-        <textarea placeholder="Mensaje" required></textarea>
-        <button type="submit">Enviar</button>
-      </form>
-    </div>
-  </div>
-  <footer>
-    <a href="https://www.linkedin.com/in/juanpgonzalez/"><i class="fab fa-linkedin"></i></a>
-    <a href="https://www.instagram.com/juanpablomdp/"><i class="fab fa-instagram"></i></a>
-    <a href="https://api.whatsapp.com/send/?phone=5491155144268&text=Queremos+contratarte!&type=phone_number&app_absent=0"><i class="fab fa-whatsapp"></i></a>
-  </footer>
-  <script src="script.js"></script>
+    <title>JP GONZALEZ HANSEN</title>
+    
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Software Quality Assurance manager">
+    <link rel="shortcut icon" href="favicon.ico"> 
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    
+    <!-- FontAwesome JS-->
+	<script defer src="assets/fontawesome/js/all.min.js"></script>
+       
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/pillar-1.css">
+
+
+</head> 
+
+<body>	
+
+    <article class="resume-wrapper text-center position-relative">
+	    <div class="resume-wrapper-inner mx-auto text-start bg-white shadow-lg">
+		    <header class="resume-header pt-4 pt-md-0">
+			    <div class="row">
+				    <div class="col-block col-md-auto resume-picture-holder text-center text-md-start">
+				        <img class="picture" src="assets/images/profile.png" alt="">
+				    </div><!--//col-->
+				    <div class="col">
+					    <div class="row p-4 justify-content-center justify-content-md-between">
+						    <div class="primary-info col-auto">
+							    <h1 class="name mt-0 mb-1 text-white text-uppercase text-uppercase">JP GONZALEZ HANSEN</h1>
+							    <div class="title mb-3">QA Manager</div>
+							    <ul class="list-unstyled">
+								    <li class="mb-2"><a class="text-link" href="#"><i class="far fa-envelope fa-fw me-2" data-fa-transform="grow-3"></i>juanpablomdp@gmail.com</a></li>
+								    <li><a class="text-link" href="#"><i class="fas fa-mobile-alt fa-fw me-2" data-fa-transform="grow-6"></i>+54 9 1155144268</a></li>
+							    </ul>
+						    </div><!--//primary-info-->
+						    <div class="secondary-info col-auto mt-2">
+							    <ul class="resume-social list-unstyled">
+					                <li class="mb-3"><a class="text-link" href="https://www.linkedin.com/in/juanpgonzalez/"><span class="fa-container text-center me-2"><i class="fab fa-linkedin-in fa-fw"></i></span>linkedin.com/in/juanpgonzalez</a></li>
+					                <li class="mb-3"><a class="text-link" href="https://github.com/pablohansen"><span class="fa-container text-center me-2"><i class="fab fa-github-alt fa-fw"></i></span>github.com/pablohansen</a></li>
+							    </ul>
+						    </div><!--//secondary-info-->
+					    </div><!--//row-->
+					    
+				    </div><!--//col-->
+			    </div><!--//row-->
+		    </header>
+		    <div class="resume-body p-5">
+			    <section class="resume-section summary-section mb-5">
+				    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Career Summary</h2>
+				    <div class="resume-section-content">
+					    <p class="mb-0">I am JP, a highly skilled QA professional with a proven track record in leading software teams and driving quality assurance initiatives. My expertise in QA methodologies, test processes, and team management, combined with my technical acumen and effective communication, positions me as a valuable asset in delivering successful software projects.</p>
+				    </div>
+			    </section><!--//summary-section-->
+			    <div class="row">
+				    <div class="col-lg-9">
+					    <section class="resume-section experience-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Work Experience</h2>
+						    <div class="resume-section-content">
+							    <div class="resume-timeline position-relative">
+								    <article class="resume-timeline-item position-relative pb-5">
+									    
+									    <div class="resume-timeline-item-header mb-2">
+										    <div class="d-flex flex-column flex-md-row">
+										        <h3 class="resume-position-title font-weight-bold mb-1">QA Manager</h3>
+										        <div class="resume-company-name ms-auto">S1Gateway</div>
+										    </div><!--//row-->
+										    <div class="resume-position-time">2017 - Present</div>
+									    </div><!--//resume-timeline-item-header-->
+									    <div class="resume-timeline-item-desc">
+										    <p>Responsible for leading the QA team on agile projects for 3 company products.
+Oversee the test process, documentation, and reports.
+Conduct functional analysis, requirement analysis, ATDD, and web app testing (front-end, back-end).
+</p>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements:</h4>
+										    <p>I was responsible for the complete creation of the Software Quality Assurance departament.</p> 
+										    <ul>
+											    <li>Design all the processes according to the SDLC.</li>
+											    <li>Hire and lead manual testers</li>
+											    <li>Design and manage the automation process.</li>
+											    <li>Create indicators and share them to the company.</li>
+										    </ul>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+										    <ul class="list-inline">
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Qase</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Jenkins</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Gsuite</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Excel</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Postman</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Github</span></li>
+										    </ul>
+									    </div><!--//resume-timeline-item-desc-->
+
+								    </article><!--//resume-timeline-item-->
+								    
+								    <article class="resume-timeline-item position-relative pb-5">
+									    
+									    <div class="resume-timeline-item-header mb-2">
+										    <div class="d-flex flex-column flex-md-row">
+										        <h3 class="resume-position-title font-weight-bold mb-1">Customer Experience Analyst</h3>
+										        <div class="resume-company-name ms-auto">S1Gateway</div>
+										    </div><!--//row-->
+										    <div class="resume-position-time">2015 - 2017</div>
+									    </div><!--//resume-timeline-item-header-->
+									    <div class="resume-timeline-item-desc">
+										    <p>Managed customer experience for clients in Argentina and Latin America.
+Interacted with clients through phone calls, email, and webchat.
+Performed quality assurance tasks and provided customer service advice on social media.
+</p>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Achievements</h4>
+										    <p>Demonstrated exceptional customer service skills by providing professional technical support to customers. Effectively managed and resolved crises, showcasing strong troubleshooting abilities and ensuring prompt resolution of issues.</p>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+										    <ul class="list-inline">
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Gsuite</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Github</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Email</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Kibana</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Jenkins</span></li>
+										    </ul>
+									    </div><!--//resume-timeline-item-desc-->
+
+								    </article><!--//resume-timeline-item-->
+								    
+								    <article class="resume-timeline-item position-relative pb-5">
+									    
+									    <div class="resume-timeline-item-header mb-2">
+										    <div class="d-flex flex-column flex-md-row">
+										        <h3 class="resume-position-title font-weight-bold mb-1">Technical Dispatcher</h3>
+										        <div class="resume-company-name ms-auto">GSA Suite</div>
+										    </div><!--//row-->
+										    <div class="resume-position-time">2014 - 2015</div>
+									    </div><!--//resume-timeline-item-header-->
+									    <div class="resume-timeline-item-desc">
+										    <p>Worked as a technical dispatcher in a call center for Cablevisión-Fibertel multimedia service.
+Handled back-office tasks, visit confirmations, and online technical requests.</p>
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+										    <ul class="list-inline">
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Avaya</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Excel</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Remedy</span></li>
+										    </ul>
+									    </div><!--//resume-timeline-item-desc-->
+
+								    </article><!--//resume-timeline-item-->
+								    
+								    <article class="resume-timeline-item position-relative">
+									    
+									    <div class="resume-timeline-item-header mb-2">
+										    <div class="d-flex flex-column flex-md-row">
+										        <h3 class="resume-position-title font-weight-bold mb-1">Call Center Agent</h3>
+										        <div class="resume-company-name ms-auto">Atento Argentina</div>
+										    </div><!--//row-->
+										    <div class="resume-position-time">2006 - 2013</div>
+									    </div><!--//resume-timeline-item-header-->
+									    <div class="resume-timeline-item-desc">
+										    <p>3rd Stage:Handled calls from professional and corporate Movistar clients. Managed backoffice tasks, loyalty programs, and handled roaming data consumption issues. Resolved claims, requests, and provided billing analysis.</p>
+											 <p>2nd Stage: Handled calls from professional and corporate Movistar clients. Assisted with claims, inquiries, mobile configurations, and billing analysis. Worked with 10 systems.</p>
+											 <p>1st Stage: Assisted pre-paid Movistar Argentina clients. Handled calls related to claims, inquiries, and mobile configurations. Worked with 5 systems.</p>											 
+										    <h4 class="resume-timeline-item-desc-heading font-weight-bold">Technologies used:</h4>
+										    <ul class="list-inline">
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Avaya</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Excel</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Remedy</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Zeus</span></li>
+											    <li class="list-inline-item"><span class="badge bg-secondary badge-pill">Movics</span></li>
+
+										    </ul>
+									    </div><!--//resume-timeline-item-desc-->
+
+								    </article><!--//resume-timeline-item-->
+								    
+								    
+							    </div><!--//resume-timeline-->
+							    
+							    
+							    
+							    
+							    
+							    
+						    </div>
+					    </section><!--//experience-section-->
+				    </div>
+				    <div class="col-lg-3">
+					    <section class="resume-section skills-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Skills &amp; Tools</h2>
+						    <div class="resume-section-content">
+						        <div class="resume-skill-item">
+							        <h4 class="resume-skills-cat font-weight-bold">Management</h4>
+							        <ul class="list-unstyled mb-4">
+								        <li class="mb-2">
+								            <div class="resume-skill-name">Planning</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 98%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+								        <li class="mb-2">
+								            <div class="resume-skill-name">Communication</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 94%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+								        <li class="mb-2">
+								            <div class="resume-skill-name">Decision-making</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 96%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+								        
+								        <li class="mb-2">
+								            <div class="resume-skill-name">Delegation</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 92%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+								        <li class="mb-2">
+								            <div class="resume-skill-name">Problem-solving</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 96%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+							        </ul>
+						        </div><!--//resume-skill-item-->
+						        
+						        <div class="resume-skill-item">
+						            <h4 class="resume-skills-cat font-weight-bold">Skills & tools</h4>
+							        <ul class="list-unstyled">
+								        <li class="mb-2">
+								            <div class="resume-skill-name">Gsuite</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+								        <li class="mb-2">
+								            <div class="resume-skill-name">Excel</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 92%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+								        <li class="mb-2">
+								            <div class="resume-skill-name">Html/Css/javascript</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 86%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+								        <li class="mb-2">
+								            <div class="resume-skill-name">Kibana</div>
+									        <div class="progress resume-progress">
+											    <div class="progress-bar theme-progress-bar-dark" role="progressbar" style="width: 82%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+								        </li>
+							        </ul>
+						        </div><!--//resume-skill-item-->
+						        
+						        <div class="resume-skill-item">
+						            <h4 class="resume-skills-cat font-weight-bold">Others</h4>
+						            <ul class="list-inline">
+							            <li class="list-inline-item"><span class="badge badge-light">Learning</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Testops</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Git</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Testing</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Documentation</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Postman</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Technical</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Qase</span></li>
+							            <li class="list-inline-item"><span class="badge badge-light">Notion</span></li>
+						            </ul>
+						        </div><!--//resume-skill-item-->
+						    </div><!--resume-section-content-->
+					    </section><!--//skills-section-->
+					    <section class="resume-section education-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Education</h2>
+						    <div class="resume-section-content">
+							    <ul class="list-unstyled">
+								    <li class="mb-2">
+								        <div class="resume-degree font-weight-bold">Professional Testing Master</div>
+								        <div class="resume-degree-org">UTN</div>
+								        <div class="resume-degree-time">2017</div>
+								    </li>
+									<li>
+								        <div class="resume-degree font-weight-bold">Linux Administration</div>
+								        <div class="resume-degree-org">Udemy</div>
+								        <div class="resume-degree-time">2017</div>
+								    </li>
+								    <li>
+								        <div class="resume-degree font-weight-bold">Web developer</div>
+								        <div class="resume-degree-org">UTN</div>
+								        <div class="resume-degree-time">2016</div>
+								    </li>
+									 
+							    </ul>
+						    </div>
+					    </section><!--//education-section-->
+					    <!-- <section class="resume-section reference-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Awards</h2>
+						    <div class="resume-section-content">
+							    <ul class="list-unstyled resume-awards-list">
+								    <li class="mb-2 ps-4 position-relative">
+								        <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
+								        <div class="resume-award-name">Award Name Lorem</div>
+								        <div class="resume-award-desc">Award desc goes here, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo.</div>
+								    </li>
+								    <li class="mb-0 ps-4 position-relative">
+								        <i class="resume-award-icon fas fa-trophy position-absolute" data-fa-transform="shrink-2"></i>
+								        <div class="resume-award-name">Award Name Ipsum</div>
+								        <div class="resume-award-desc">Award desc goes here, ultricies nec, pellentesque.</div>
+								    </li>
+							    </ul>
+						    </div>
+					    </section>//interests-section -->
+					    <section class="resume-section language-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Language</h2>
+						    <div class="resume-section-content">
+							    <ul class="list-unstyled resume-lang-list">
+								    <li class="mb-2"><span class="resume-lang-name font-weight-bold">Spanish</span> <small class="text-muted font-weight-normal">(Native)</small></li>
+								    <li class="mb-2 align-middle"><span class="resume-lang-name font-weight-bold">English</span> <small class="text-muted font-weight-normal">(Advanced)</small></li>
+							    </ul>
+						    </div>
+					    </section><!--//language-section-->
+					    <section class="resume-section interests-section mb-5">
+						    <h2 class="resume-section-title text-uppercase font-weight-bold pb-3 mb-3">Interests</h2>
+						    <div class="resume-section-content">
+							    <ul class="list-unstyled">
+								    <li class="mb-1">Tennis</li>
+								    <li class="mb-1">Music</li>
+								    <li class="mb-1">Travels</li>
+							    </ul>
+						    </div>
+					    </section><!--//interests-section-->
+					    
+				    </div>
+			    </div><!--//row-->
+		    </div><!--//resume-body-->
+		    
+		    
+	    </div>
+    </article> 
+
+    
+    <footer class="footer text-center pt-2 pb-5">
+    </footer>
+
+    
+
 </body>
-</html>
+</html> 
+
